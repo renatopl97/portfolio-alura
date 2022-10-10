@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #F5F5F5;
+    font-size: 16px;
+    width: 100vw;
+}
+
+/*Menu Principal*/
+header {
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+h1, h2, h3, h4, p, a {
+    color: #464646;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 3.25em;
+    margin-bottom: 32px;
+}
+
+h3 {
+    font-size: 1.375em;
+    margin-bottom: 32px;
+}
+
+header section {
+    background: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.menu {
+    width: calc(100vw - 304px);
+    padding: 0 152px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    margin-left: 32px;
+}
+
+.nav-bar ul li:last-child {
+    font-weight: bold;
+}
+
+nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 50px;
+    width: 100vw;
+}
+
+/*Final Menu Principal*/
+.container {
+    width: 100vw;
+    height:calc(100vh - 50px);
+}
+
+div ul {
+    display: flex;
+}
+
+ul li {
+    display: flex;
+}
+
+/*Seção Sobre Mim*/
+.sobre-topo {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100vw - 304px);
+    padding: 0 152px;
+}
+
+.redes-sociais ul li {
+    align-items: center;
+    margin-right: 32px;
+}
+
+.imagem-perfil {
+    border-radius: 100%;
+    height: 400px;
+}
+
+.sobre-fundo{
+    height: 50%;
+    width: calc(100vw - 304px);
+    display: flex;
+    margin-right: 400px;
+    background: #EAF2FD;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 152px;
+}
+
+
+/*Final Seção Sobre Mim*/
+
+/*Seção Hobbies e Soft Skills*/
+/*Final Seção Hobbies e Soft Skills*/
+
+/*Seção Formações + Cursos*/
+/*Final Seção Formações + Cursos*/
+
+/*Seção Experiência em programação*/
+/*Final Seção Experiência em programação*/
+
+/*Formulário de Contato*/
+/*Final Formulário de Contato*/
+
+/*Rodapé*/
+footer {
+    text-align: center;
+}
+/*Final Rodapé*/
