@@ -130,3 +130,16 @@ footer {
     text-align: center;
 }
 /*Final Rodapé*/
+section #skills {
+    display: flex;
+}
+
+section .em-breve {
+    justify-content: center;
+
+    align-content: center;
+}
+.mensagem-temporaria {
+    text-align: center;
+}
+
