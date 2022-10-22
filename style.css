@@ -38,15 +38,15 @@ header section {
     justify-content: space-between;
     height: 50px;
     max-width: 100%;
-    padding: 0 152px;
 }
 
-section .menu {
+.menu {
     position: fixed;
     left: 0;
     top: 0;
     display: flex;
-    width: 100%;
+    width: calc(100% - 304px);
+    padding: 0 152px;
 }
 
 nav ul {
