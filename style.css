@@ -31,21 +31,22 @@ h3 {
 
 /*Menu Principal*/
 
-.menu {
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: calc(100% - 304px);
-    padding: 0 152px;
-}
-
 header section {
     background: #F5F5F5;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 50px;
+    max-width: 100%;
+    padding: 0 152px;
+}
+
+section .menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
 }
 
 nav ul {
@@ -88,6 +89,7 @@ ul li {
 
 .sobre-topo {
     height: 50%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,7 +98,8 @@ ul li {
 }
 
 .texto-sobre {
-    margin-right: 50px;
+    padding-right: 50px;
+    width: 75%;
 }
 
 .sobre-topo h3 {
@@ -109,19 +112,31 @@ ul li {
 }
 
 .imagem-perfil {
+    display: flex;
+    height: 80%;
+    width: 25%;
+    align-items: center;
+    justify-content: end;
+}
+
+.imagem-perfil img {
+    width: 100%;
     border-radius: 100%;
-    height: 400px;
 }
 
 .sobre-fundo{
     height: 50%;
     width: calc(100% - 304px);
     display: flex;
-    margin-right: 400px;
     background: #EAF2FD;
     justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0 152px;
+}
+
+.texto-fundo {
+    padding-right: 25%;
 }
 
 
@@ -132,6 +147,8 @@ ul li {
 #skills {
     display: flex;
     flex-direction: column;
+    width: calc(100% - 304px);
+    padding: 0 152px;
 }
 
 .skills, .skills-futuras {
@@ -177,12 +194,18 @@ ul li {
     justify-content: center;
     align-items: center;
     background: #EAF2FD;
+    width: calc(100% - 304px);
+    padding: 0 152px;
+}
+
+.formacoes {
+    width: 100%;
 }
 
 .instituicoes {
     background: #FFFFFF;
-    width: 350px;
-    height: 500px;
+    width: 30%;
+    height: 50vh;
     margin: 0 10px;
     display: flex;
     flex-direction: column;
@@ -212,21 +235,22 @@ ul li {
 }
 
 .texto-formacoes h3 {
+    height: 40%;
     margin-bottom: 16px;
 }
 
 .footer-formacao {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-content: flex-end;
+    height: 60%;
+    align-self: center;
+    justify-self: end;
 }
-
 .certificados {
     height: 24px;
-    display: flex;
-    justify-content: center;
     margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
 }
 
 .certificados img {
@@ -258,6 +282,7 @@ section .em-breve {
 
     align-content: center;
 }
+
 .mensagem-temporaria {
     text-align: center;
 }
