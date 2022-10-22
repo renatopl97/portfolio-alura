@@ -159,14 +159,10 @@
 
             </div>
             <form class="formulario">
-                <label for="nomesobrenome">Nome completo: </label>
-                <input type="text" id="nomesobrenome" class="input-padrao" required>
-                <label for="email">Email: </label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required required placeholder="Nome Completo">
                 <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
-                <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-                <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                <textarea cols="70" rows="1" id="assunto" class="input-padrao" required required placeholder="Assunto"></textarea>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required required placeholder="Mensagem"></textarea>
                 <fieldset>
                     <legend>Como prefere o nosso contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
