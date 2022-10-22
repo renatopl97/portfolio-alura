@@ -37,14 +37,9 @@ header section {
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    max-width: 100%;
-}
-
-.menu {
     position: fixed;
     left: 0;
     top: 0;
-    display: flex;
     width: calc(100% - 304px);
     padding: 0 152px;
 }
