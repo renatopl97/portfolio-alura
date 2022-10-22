@@ -266,6 +266,26 @@ ul li {
 /*Final Seção Experiência em programação*/
 
 /*Formulário de Contato*/
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EAF2FD;
+    width: calc(100% - 304px);
+    padding: 0 152px;
+}
+
+.imagem-formulario {
+    width: 50%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 /*Final Formulário de Contato*/
 
 /*Rodapé*/
