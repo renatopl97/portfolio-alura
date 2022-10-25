@@ -217,15 +217,15 @@ ul li {
 }
 
 .cards-formacoes img {
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 80%;
 }
 
 .texto-formacoes {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5%;
     height: 40%;
 }
 
@@ -239,6 +239,7 @@ ul li {
     align-self: center;
     justify-self: end;
 }
+
 .certificados {
     height: 24px;
     margin-top: 32px;
@@ -279,6 +280,14 @@ ul li {
     display: flex;
     flex-direction: column;
     width: 50%;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    resize: none;
 }
 
 /*Final Formulário de Contato*/
